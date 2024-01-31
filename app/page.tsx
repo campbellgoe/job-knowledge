@@ -18,7 +18,7 @@ export default function Home() {
 
   const fuse = useMemo(() => new Fuse(jobList, {
     keys: ['Profession']
-  }), [jobList])
+  }), [])
   const [search, setSearch] = useState('')
   const results = useMemo(() => fuse.search(search).slice(0, 10), [search, fuse]);
 
