@@ -37,7 +37,7 @@ export default function Home() {
     }
   }, [params]);
   
-  return <main className="m-auto w-96">
+  return <main className="p-2 m-auto w-full md:w-96">
     <h1>What jobs are there?</h1>
     <div className="flex my-4"><label className="mr-2" htmlFor='search-input'>Search</label><input id="search-input" type="text" value={search} onChange={(e: any) => setSearch(e.target.value)} /></div>
   <h2>Search results ({results.length})</h2>{results.map(({ refIndex, item }: any) => {
@@ -48,7 +48,7 @@ export default function Home() {
     {professions.map(({Profession, Description}: any) => {
       return <details key={Profession} id={Profession} className="ml-4 mb-2">
         <summary>{Profession}</summary>
-        <pre className="whitespace-pre-wrap">{Description.split('**').map((item: any, index: number) => index %2 == 1 ? <strong key={item}>{item}</strong> : item)}</pre>
+        <pre className="whitespace-pre-wrap max-w-full">{Description.split('**').map((item: any, index: number) => index %2 == 1 ? <strong key={item}>{item}</strong> : item)}</pre>
         </details>
     })}
   </details>)}
