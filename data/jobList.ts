@@ -192,147 +192,147 @@ const jobList = [
   {
     "Profession": "Mechanical Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A mechanical engineer applies principles of physics, mathematics, and materials science to design, analyze, manufacture, and maintain mechanical systems. This profession involves the development of various products, from engines and tools to thermal and mechanical systems, requiring a deep understanding of mechanics, dynamics, thermodynamics, material science, and structural analysis. Mechanical engineers work across multiple industries, including automotive, aerospace, energy, and manufacturing, contributing to the innovation and optimization of mechanical technologies and systems for improved performance and efficiency."
   },
   {
     "Profession": "Civil Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A civil engineer is responsible for designing, constructing, and maintaining the physical and naturally built environment. This includes infrastructure projects like roads, bridges, dams, water and sewage systems, airports, and buildings. Civil engineering encompasses several sub-disciplines including structural, environmental, geotechnical, and transportation engineering. Professionals in this field must consider economic, environmental, and social factors, ensuring projects are sustainable, safe, and well-integrated into the surrounding community. Civil engineers play a critical role in shaping the built environment, requiring a solid foundation in engineering principles, project management, and problem-solving skills."
   },
   {
     "Profession": "Electrical Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "An electrical engineer focuses on designing, developing, and testing electrical equipment and systems. This includes a wide range of technologies such as electric motors, navigation systems, broadcasting and communication systems, power generation equipment, and electrical systems of aircraft and automobiles. Electrical engineers work on the forefront of high-tech innovations, contributing to the development of new electronic devices, solving problems related to energy transmission, and improving the functionality of existing electrical devices. The field demands a strong understanding of electrical and electronic theories, circuit design, and the ability to apply these concepts to real-world applications."
   },
   {
     "Profession": "Chemical Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A chemical engineer applies principles of chemistry, physics, biology, and mathematics to solve problems involving the production or use of chemicals, fuel, drugs, food, and many other products. They design processes and equipment for large-scale safe and sustainable manufacturing, test methods for production, and work on treating byproducts. Chemical engineers are involved in managing resources, protecting the environment, and improving manufacturing techniques. This role requires a deep understanding of chemical processes, engineering principles, and analytical methods to innovate and improve production processes and product quality."
   },
   {
     "Profession": "Aerospace Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "An aerospace engineer designs and tests aircraft, spacecraft, satellites, and missiles, ensuring they meet engineering principles and customer requirements. They work in both aeronautical engineering, focusing on atmospheric vehicles like planes and helicopters, and astronautical engineering, which deals with spacecraft and related technologies. Aerospace engineers develop new technologies for use in aviation, defense systems, and space exploration, addressing challenges related to flight safety, fuel efficiency, and environmental impact. The profession demands a strong foundation in aerodynamics, propulsion, avionics, and materials science, along with creativity and analytical skills to push the boundaries of what is possible in air and space travel."
   },
   {
     "Profession": "IT Specialist",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "An IT Specialist, or Information Technology Specialist, focuses on the implementation, monitoring, and maintenance of IT systems. They are responsible for troubleshooting and resolving technical problems, ensuring the security of IT systems, and providing support for software, hardware, and networks. IT Specialists work across various industries, keeping computer systems running smoothly and efficiently, assisting with system upgrades, and managing data storage solutions. This role requires a broad knowledge of computer systems and networks, problem-solving skills, and the ability to communicate effectively with non-technical users."
   },
   {
     "Profession": "Data Scientist",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A Data Scientist analyzes and interprets complex data to help organizations make informed decisions. They use a combination of analytical, statistical, and machine learning techniques to recognize patterns, identify trends, and predict outcomes. Data Scientists work with large sets of structured and unstructured data, developing algorithms and building models to process and analyze data. This profession demands strong skills in mathematics, statistics, computer science, and the ability to communicate findings clearly to both technical and non-technical audiences."
   },
   {
     "Profession": "Network Administrator",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A Network Administrator is responsible for managing and maintaining an organization's computer networks. Their duties include installing, supporting, and managing the networks and computer systems that support voice, data, video, and wireless network services. Network Administrators ensure the internal networks are operating smoothly, perform routine maintenance, and quickly resolve network issues when they arise. They also implement network security measures to protect data, software, and hardware. This role requires a deep understanding of network infrastructure, protocols, and security practices."
   },
   {
     "Profession": "Biomedical Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A Biomedical Engineer applies principles of engineering and biological sciences to develop technologies and devices that improve patient care and medical procedures. They work on a wide range of products, including medical imaging devices, artificial organs, prostheses, and healthcare management and delivery systems. Biomedical Engineers design and create equipment and software, work in rehabilitation and the development of medical devices that aid in the diagnosis and treatment of diseases. This field requires a blend of engineering expertise, understanding of biological systems, and a commitment to improving patient health."
   },
   {
     "Profession": "Environmental Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "An Environmental Engineer uses principles of engineering, soil science, biology, and chemistry to develop solutions to environmental problems. They are involved in efforts to improve recycling, waste disposal, public health, and water and air pollution control. Environmental Engineers design systems for water supply and pollution control, evaluate projects for environmental impact, and develop regulations to prevent mishaps. They work to ensure projects comply with environmental regulations and strive to improve environmental protection and sustainability. This profession demands a strong foundation in environmental science, engineering principles, and a commitment to preserving natural resources and public health."
   },
   {
     "Profession": "Robotics Engineer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A Robotics Engineer designs, builds, and maintains robots and robotic systems that can perform duties that humans are either unable or prefer not to complete. They work on the mechanical, electrical, and software aspects of robotics, including the development of new applications and systems for manufacturing, healthcare, and service industries. Robotics Engineers combine principles from computer science, mechanical engineering, and electrical engineering to create machines that can assist humans or take over tasks in various environments. This role requires a blend of creativity, technical knowledge, and problem-solving skills to innovate and improve robotic technologies."
   },
   {
     "Profession": "AI Developer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "An AI Developer specializes in developing algorithms, data structures, and software solutions that enable machines to perform tasks requiring human intelligence. These tasks include learning, decision-making, problem-solving, and understanding natural language. AI Developers work in various fields, including virtual assistants, computer vision, and machine learning, creating systems that can learn from data, improve over time, and make autonomous decisions. This profession demands a strong background in computer science, mathematics, and a deep understanding of machine learning algorithms and neural networks."
   },
   {
     "Profession": "Blockchain Developer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A Blockchain Developer focuses on developing and implementing architecture and solutions using blockchain technology. The primary responsibility includes creating decentralized applications (DApps), setting up blockchain protocols, developing smart contracts, and ensuring secure blockchain-based transactions. Blockchain Developers work in finance, supply chain, healthcare, and other industries seeking transparency, security, and efficiency. This role requires expertise in cryptography, smart contract development, and a solid understanding of various blockchain platforms and consensus algorithms."
   },
   {
     "Profession": "Big Data Analyst",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A Big Data Analyst collects, processes, and analyzes large sets of data (big data) to uncover hidden patterns, correlations, and other insights. They work with complex data sets to evaluate business and market trends, enhancing an organization's operational efficiency and competitiveness. Big Data Analysts use advanced analytics techniques, including predictive modeling and machine learning, to analyze data and provide actionable insights. This profession requires strong analytical skills, proficiency in programming languages used for data analysis, and a thorough understanding of data storage and processing architectures."
   },
   {
     "Profession": "UX/UI Designer",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A UX/UI Designer focuses on designing user interfaces and user experiences for websites, applications, and other digital products. They ensure that the product logically flows from one step to the next by conducting user research, designing wireframes and graphic elements, and creating interactive prototypes. UX/UI Designers aim to make products more user-friendly and intuitive, enhancing user satisfaction and engagement. This role combines elements of psychology, design, and technology, requiring skills in graphic design, user research, and an understanding of how users interact with technology."
   },
   {
     "Profession": "Cybersecurity Analyst",
     "Category": "Engineering and Technology",
-    "Description": ""
+    "Description": "A Cybersecurity Analyst is tasked with protecting an organization's computer systems and networks from cyber threats. They monitor, detect, investigate, analyze, and respond to security incidents. By implementing and maintaining security measures and protocols, they ensure the confidentiality, integrity, and availability of data. Cybersecurity Analysts conduct vulnerability assessments, manage security technologies such as firewalls and encryption programs, and advise on security best practices. They play a critical role in preventing data breaches, cyber-attacks, and ensuring an organization's information assets are protected against potential threats. This profession requires a deep understanding of information technology, cybersecurity principles, and the evolving landscape of cyber threats."
   },
   {
     "Profession": "Doctor",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Doctor, also known as a Physician, diagnoses and treats illnesses, injuries, and other medical conditions. Doctors work in various specialties, such as general practice, pediatrics, surgery, psychiatry, and more. They perform examinations, order and interpret diagnostic tests, prescribe medications, and manage patient care. Doctors also provide advice on diet, hygiene, and preventive healthcare to their patients. This profession demands extensive knowledge of the human body, diseases, and medical treatments, requiring years of education and training. Doctors must possess a strong commitment to their patients' health and well-being, excellent communication skills, and the ability to make decisions in high-pressure situations."
   },
   {
     "Profession": "Nurse",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Nurse provides and coordinates patient care, educates patients and the public about various health conditions, and offers advice and emotional support to patients and their families. Nurses work in a variety of settings, including hospitals, clinics, nursing homes, and community health organizations. They perform physical exams, administer medications, monitor the patient's condition, maintain medical records, and collaborate with doctors and other healthcare professionals. Nursing roles range from direct patient care and case management to establishing nursing practice standards and directing complex nursing care systems. This profession requires a compassionate nature, strong communication skills, and resilience."
   },
   {
     "Profession": "Pharmacist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Pharmacist dispenses medications prescribed by physicians and other health practitioners and provides information to patients about medications and their use. Pharmacists review prescriptions to ensure accuracy, determine formulas and ingredients needed, and check for interactions with other medications. They also advise on drug dosage, side effects, and proper storage. Pharmacists may conduct health and wellness screenings, provide immunizations, and oversee the medications given to patients. The role requires a deep understanding of pharmacology, chemistry, and the laws governing the use of drugs, emphasizing patient safety and ethical responsibilities."
   },
   {
     "Profession": "Dentist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Dentist diagnoses and treats issues related to the teeth, gums, and mouth. They perform dental exams, provide cleanings, fill cavities, extract teeth, and perform other surgical procedures to maintain oral health. Dentists also prescribe medications, take and interpret dental X-rays, and provide advice on oral health care. Some dentists specialize in areas such as orthodontics, periodontics, or pediatric dentistry. This profession requires a strong foundation in biology, chemistry, and anatomy, with specialized training in dentistry. Dentists must have excellent manual dexterity, interpersonal skills, and the ability to manage the anxiety of patients."
   },
   {
     "Profession": "Physical Therapist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Physical Therapist (PT) works with patients who have sustained injuries, undergone surgery, or face long-term conditions, to improve their movement and manage their pain. PTs develop personalized treatment plans that promote the ability to move, reduce pain, restore function, and prevent disability. They use techniques such as exercises, stretching maneuvers, hands-on therapy, and equipment to aid patients' recovery. Physical therapists also educate patients and their families about what to expect from the recovery process and how to cope with challenges during therapy. This profession requires a strong understanding of human anatomy and physiology, excellent communication skills, and a compassionate approach to care."
   },
   {
     "Profession": "Psychologist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Psychologist studies cognitive, emotional, and social processes and behavior by observing, interpreting, and recording how individuals relate to one another and to their environments. They use this information to help improve processes and behaviors. Psychologists may work directly with patients to understand their problems and implement strategies to help them manage issues, or they may conduct research to identify patterns that can help predict and improve behavior. This field requires a deep understanding of human development, psychological theories, and therapeutic methods. Psychologists may specialize in various areas, such as clinical, counseling, developmental, or forensic psychology."
   },
   {
     "Profession": "Veterinarian",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Veterinarian diagnoses and treats diseases, disorders, and injuries in animals. They perform surgeries, prescribe medications, and provide advice on animal care to pet owners. Veterinarians work with a variety of animals, from pets and livestock to zoo animals and wildlife. Their responsibilities include conducting examinations, vaccinating against diseases, and addressing issues related to animal nutrition and welfare. This profession demands a comprehensive knowledge of veterinary science, as well as strong interpersonal and communication skills to interact with animal owners and handle animals with care."
   },
   {
     "Profession": "Surgeon",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Surgeon performs operations to treat diseases, injuries, and deformities. Their responsibilities include diagnosing patient conditions, determining appropriate surgical procedures, and using a variety of instruments to operate on patients. Surgeons work in specialties like general surgery, orthopedic, neurosurgery, cardiovascular, and plastic surgery. They collaborate with other healthcare professionals to provide comprehensive care and post-operative management. This career requires excellent manual dexterity, decision-making skills, and the ability to work under pressure, as well as extensive training in medical school and surgical residency programs."
   },
   {
     "Profession": "Optometrist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "An Optometrist examines, diagnoses, treats, and manages diseases, injuries, and disorders of the visual system, the eye, and associated structures. They also identify related systemic conditions affecting the eye. Optometrists prescribe eyeglasses, contact lenses, vision therapy, and medications to treat eye diseases. They may also perform minor surgical procedures related to eye care. This profession requires detailed knowledge of visual health, the ability to conduct precise eye examinations, and the interpersonal skills to communicate effectively with patients about their vision and health care choices."
   },
   {
     "Profession": "Occupational Therapist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "An Occupational Therapist (OT) helps individuals of all ages who have physical, sensory, or cognitive problems to regain independence in all areas of their lives. OTs assist patients in developing, recovering, improving, and maintaining the skills needed for daily living and working. They work with individuals who suffer from a mentally, physically, developmentally, or emotionally disabling condition by using treatments to develop, recover, or maintain the daily living and work skills of their clients. Occupational therapists may also make changes to the environment or teach specific tasks to help patients cope with their daily activities. This profession requires a strong understanding of medical conditions, therapy techniques, and a compassionate approach to care."
   },
   {
     "Profession": "Radiologist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Radiologist is a medical doctor who specializes in diagnosing and treating diseases and injuries using medical imaging procedures, such as X-rays, computed tomography (CT), magnetic resonance imaging (MRI), nuclear medicine, positron emission tomography (PET), and ultrasound. Radiologists play a critical role in health care, providing crucial information that helps guide how patients are treated for a variety of conditions. This specialty requires a deep understanding of anatomy, pathology, and physics, as well as years of training in both medical school and residency programs."
   },
   {
     "Profession": "Medical Technologist",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Medical Technologist, also known as a Clinical Laboratory Scientist, performs a variety of tests and procedures to analyze body fluids, tissue, and other substances. These professionals work in laboratory settings, where they operate sophisticated laboratory equipment to help diagnose, prevent, and treat diseases. Medical Technologists play a crucial role in the healthcare system, providing data that doctors and healthcare professionals rely on to make informed medical decisions. This field requires a strong background in biology, chemistry, and mathematics, as well as specialized training in laboratory technology."
   },
   {
     "Profession": "Dietitian",
     "Category": "Healthcare",
-    "Description": ""
+    "Description": "A Dietitian is an expert in dietetics; that is, human nutrition and the regulation of diet. They advise individuals on what to eat in order to lead a healthy lifestyle or achieve a specific health-related goal. Dietitians assess, diagnose, and treat dietary and nutritional problems at an individual and wider public health level. They work with patients who have conditions such as diabetes, heart disease, renal disease, obesity, malnutrition, and cancer to develop dietary strategies that enhance their quality of life. This profession requires extensive knowledge of food and nutrition, as well as excellent communication skills to effectively counsel and support patients."
   },
   {
     "Profession": "Chef",
@@ -342,32 +342,32 @@ const jobList = [
   {
     "Profession": "Hotel Manager",
     "Category": "Hospitality and Tourism",
-    "Description": ""
+    "Description": "A Chef is a professional cook, typically the chief cook in a restaurant or hotel, responsible for managing the kitchen, planning menus, overseeing food preparation, and creating dishes. Chefs must be knowledgeable about ingredients, culinary techniques, and cuisine trends. They ensure the quality of meals, maintain health and safety standards, and manage kitchen staff. Being a chef requires creativity, leadership, and the ability to work under pressure. Chefs may specialize in a particular type of cuisine and often have a strong passion for food and cooking, combining artistry and technique to craft delicious dishes."
   },
   {
     "Profession": "Travel Agent",
     "Category": "Hospitality and Tourism",
-    "Description": ""
+    "Description": "A Travel Agent assists clients in making travel arrangements for both business and leisure purposes. They provide advice on destinations, plan trip itineraries, and make travel arrangements for clients, including booking flights, hotels, and tours. Travel Agents use their knowledge of travel destinations and their network of contacts in the travel industry to ensure clients have a pleasant and hassle-free travel experience. They must stay informed about current travel advisories, visa requirements, and other travel regulations. This profession requires excellent organizational skills, customer service, and attention to detail."
   },
   {
     "Profession": "Event Planner",
     "Category": "Hospitality and Tourism",
-    "Description": ""
+    "Description": "An Event Planner designs and organizes events such as weddings, corporate meetings, conferences, and parties. They manage all aspects of event planning, from the initial concept to the final details, including venue selection, catering, entertainment, and decorations. Event Planners work closely with clients to understand their vision and preferences, and they coordinate with vendors and service providers to ensure the event runs smoothly and meets the client's expectations. This role demands creativity, strong communication skills, and the ability to manage budgets and work under pressure."
   },
   {
     "Profession": "Tour Guide",
     "Category": "Hospitality and Tourism",
-    "Description": ""
+    "Description": "A Tour Guide provides guided tours to tourists and visitors at historical sites, museums, or other tourist attractions. They offer detailed information about the site's history, significance, and cultural aspects, enhancing the visitor's experience and understanding of the place. Tour Guides must be knowledgeable, engaging, and enthusiastic, with the ability to convey information in an interesting and accessible way. They also manage the logistics of the tour, ensuring that the itinerary is followed and that all participants are safe and accounted for. This profession requires excellent public speaking skills and a passion for sharing knowledge."
   },
   {
     "Profession": "Bartender",
     "Category": "Hospitality and Tourism",
-    "Description": ""
+    "Description": "A Bartender mixes and serves alcoholic and non-alcoholic beverages to customers at bars, restaurants, clubs, and hotels. They are responsible for taking orders, preparing drinks, maintaining a clean and organized bar area, and ensuring that patrons are of legal drinking age. Bartenders must have a deep knowledge of cocktail recipes, wine, and beer, as well as excellent customer service skills. They often interact with a wide range of people and must be able to manage difficult situations, including handling intoxicated customers. This role requires multitasking, quick thinking, and the ability to work in a fast-paced environment."
   },
   {
     "Profession": "Flight Attendant",
     "Category": "Hospitality and Tourism",
-    "Description": ""
+    "Description": "A Flight Attendant ensures the safety and comfort of passengers aboard flights. They perform pre-flight briefings, demonstrate emergency procedures, serve meals and beverages, and provide assistance and customer service to passengers. Flight Attendants must be prepared to deal with emergencies and ensure that all safety regulations are followed. They play a key role in creating a positive travel experience, managing in-flight entertainment, and addressing passengers' needs. This profession demands strong communication skills, a professional demeanor, and the ability to work irregular hours, including nights, weekends, and holidays."
   },
   {
     "Profession": "Concierge",
