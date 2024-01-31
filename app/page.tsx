@@ -52,5 +52,6 @@ export default function Home() {
         </details>
     })}
   </details>)}
+  <div className="mt-4">Made by <Link href="https://georgecampbell.co.uk" target="_blank">George Campbell</Link></div>
   </main>
 }
