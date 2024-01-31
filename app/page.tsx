@@ -1,6 +1,6 @@
 'use client'
-import { useEffect, useMemo, useRef, useState } from 'react'
-import jobList from '../data/jobList'
+import { useEffect, useMemo, useState } from 'react'
+import jobList from '@/data/jobList'
 import Fuse from 'fuse.js'
 import Link from 'next/link'
 import {/* useRouter, */useParams } from "next/navigation";
@@ -27,19 +27,22 @@ export default function Home() {
   
   useEffect(() => {
     if(typeof window != 'undefined'){
-      console.log("Hash:", window.location.hash);
       const hash = decodeURIComponent(window.location.hash.slice(1))
       const el = document.getElementById(hash)
       if(el){
         el.setAttribute('open', 'true')
         el.parentElement?.setAttribute('open', 'true')
-        window.scrollTo(0, el.scrollTop)
+        el.scrollIntoView({ behavior: 'smooth', block: 'start'})
       }
     }
   }, [params]);
   
   return <main className="m-auto w-96">
-    <h1>List of kinds of job</h1>
+    <h1>What jobs are there?</h1>
+    <div className="flex my-4"><label className="mr-2" htmlFor='search-input'>Search</label><input id="search-input" type="text" value={search} onChange={(e: any) => setSearch(e.target.value)} /></div>
+  <h2>Search results ({results.length})</h2>{results.map(({ refIndex, item }: any) => {
+    return <div key={refIndex}><Link href={`/#${item.Profession}`}>{item.Profession}</Link></div>
+  })}
     {obj.map(([Category, professions]) => <details key={Category}>
     <summary>{Category}</summary>
     {professions.map(({Profession, Description}: any) => {
@@ -49,8 +52,5 @@ export default function Home() {
         </details>
     })}
   </details>)}
-  <div className="flex my-4"><label className="mr-2" htmlFor='search-input'>Search</label><input id="search-input" type="text" value={search} onChange={(e: any) => setSearch(e.target.value)} /></div>
-  <h2>Search results ({results.length})</h2>{results.map(({ refIndex, item }: any) => {
-    return <div key={refIndex}><Link href={`/#${item.Profession}`}>{item.Profession}</Link></div>
-  })}</main>
+  </main>
 }
