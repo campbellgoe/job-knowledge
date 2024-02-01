@@ -10,17 +10,29 @@ export default function Home() {
     const catIndex = acc.findIndex(([cat]) => cat === Category)
     if(catIndex != -1){
       // category found
-      return acc.map(([cat, professions]) => cat === Category ? [cat, [...professions, { Profession, Description}]] : [cat, professions])
+      return acc.map(([cat, professions]) => cat === Category ? [cat, [...professions, { Profession, Category, Description}]] : [cat, professions])
     }
     // new category
-    return [...acc, [Category, [{Profession, Description}]]]
-  }, [])
+    return [...acc, [Category, [{Profession, Category, Description}]]]
+  }, []).sort((a: any, b: any) => {
+    const nameA = a[0].toUpperCase(); // ignore upper and lowercase
+    const nameB = b[0].toUpperCase(); // ignore upper and lowercase
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+  
+    // names must be equal
+    return 0;
+  })
 
   const fuse = useMemo(() => new Fuse(jobList, {
     keys: ['Profession']
   }), [])
   const [search, setSearch] = useState('')
-  const results = useMemo(() => fuse.search(search).slice(0, 10), [search, fuse]);
+  const results = useMemo(() => fuse.search(search).slice(0, 5), [search, fuse]);
 
   // const router = useRouter();
   const params = useParams();
