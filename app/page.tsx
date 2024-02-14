@@ -1,33 +1,11 @@
 'use client'
-import { useEffect, useMemo, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import jobList from '@/data/jobList'
 import Fuse from 'fuse.js'
 import Link from 'next/link'
 import {/* useRouter, */useParams } from "next/navigation";
 
 export default function Home() {
-  const obj = jobList.reduce((acc: any[], {Profession, Category, Description}) => {
-    const catIndex = acc.findIndex(([cat]) => cat === Category)
-    if(catIndex != -1){
-      // category found
-      return acc.map(([cat, professions]) => cat === Category ? [cat, [...professions, { Profession, Category, Description}]] : [cat, professions])
-    }
-    // new category
-    return [...acc, [Category, [{Profession, Category, Description}]]]
-  }, []).sort((a: any, b: any) => {
-    const nameA = a[0].toUpperCase(); // ignore upper and lowercase
-    const nameB = b[0].toUpperCase(); // ignore upper and lowercase
-    if (nameA < nameB) {
-      return -1;
-    }
-    if (nameA > nameB) {
-      return 1;
-    }
-  
-    // names must be equal
-    return 0;
-  })
-
   const fuse = useMemo(() => new Fuse(jobList, {
     keys: ['Profession']
   }), [])
@@ -55,15 +33,13 @@ export default function Home() {
   <h2>Search results ({results.length})</h2>{results.map(({ refIndex, item }: any) => {
     return <div key={refIndex}><Link href={`/#${item.Profession}`}>{item.Profession}</Link></div>
   })}
-    {obj.map(([Category, professions]) => <details key={Category}>
-    <summary>{Category}</summary>
-    {professions.map(({Profession, Description}: any) => {
-      return <details key={Profession} id={Profession} className="ml-4 mb-2">
+    {jobList.map(({Category, Profession, Description}) => <Fragment key={Profession}>
+    <details id={Profession} className="ml-4 my-2">
         <summary>{Profession}</summary>
-        <pre className="whitespace-pre-wrap max-w-full">{Description.split('**').map((item: any, index: number) => index %2 == 1 ? <strong key={item}>{item}</strong> : item)}</pre>
+        <p>Category: <span className="font-bold">{Category}</span></p>
+        <pre className="whitespace-pre-wrap max-w-full">{Description.split(Profession).join(`**${Profession}**`).split('**').map((item: any, index: number) => index %2 == 1 ? <strong key={item}>{item}</strong> : item)}</pre>
         </details>
-    })}
-  </details>)}
+  </Fragment>)}
   <div className="mt-4">Made by <Link href="https://georgecampbell.co.uk" target="_blank">George Campbell</Link></div>
   </main>
 }
