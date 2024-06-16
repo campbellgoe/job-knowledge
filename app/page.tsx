@@ -7,10 +7,10 @@ import {/* useRouter, */useParams } from "next/navigation";
 
 export default function Home() {
   const fuse = useMemo(() => new Fuse(jobList, {
-    keys: ['Profession']
+    keys: ['Profession', 'Description']
   }), [])
   const [search, setSearch] = useState('')
-  const results = useMemo(() => fuse.search(search).slice(0, 5), [search, fuse]);
+  const results = useMemo(() => fuse.search(search).slice(0, 3), [search, fuse]);
 
   // const router = useRouter();
   const params = useParams();
@@ -33,11 +33,12 @@ export default function Home() {
   <h2>Search results ({results.length})</h2>{results.map(({ refIndex, item }: any) => {
     return <div key={refIndex}><Link href={`/#${item.Profession}`}>{item.Profession}</Link></div>
   })}
-    {jobList.map(({Category, Profession, Description}) => <Fragment key={Profession}>
+    {jobList.map(({Category, Profession, Description, Salary: { EstimatedValue: estAvgValue, Description: SalaryDescription}}) => <Fragment key={Profession}>
     <details id={Profession} className="ml-4 my-2">
         <summary>{Profession}</summary>
-        <p>Category: <span className="font-bold">{Category}</span></p>
-        <pre className="whitespace-pre-wrap max-w-full">{Description.split(Profession).join(`**${Profession}**`).split('**').map((item: any, index: number) => index %2 == 1 ? <strong key={item}>{item}</strong> : item)}</pre>
+        <p>Category: <span className="font-bold mb-2">{Category}</span></p>
+        <pre className="whitespace-pre-wrap max-w-full mb-2">{Description.split(Profession).join(`**${Profession}**`).split('**').map((item: any, index: number) => index %2 == 1 ? <strong key={item}>{item}</strong> : item)}</pre>
+        <pre className="whitespace-pre-wrap max-w-full mb-4">{SalaryDescription.split(estAvgValue).join(`**${estAvgValue}**`).split('**').map((item: any, index: number) => index %2 == 1 ? <strong key={item}>{item}</strong> : item)}</pre>
         </details>
   </Fragment>)}
   <div className="mt-4">Made by <Link href="https://georgecampbell.co.uk" target="_blank">George Campbell</Link></div>
