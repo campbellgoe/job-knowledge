@@ -34,7 +34,7 @@ export default function Home() {
   <h2>Search results ({results.length})</h2>{results.map(({ refIndex, item }: any) => {
     return <div key={refIndex}><Link href={`/${slugify(item.Profession)}`}>{item.Profession}</Link></div>
   })}
-    {jobList.map(({Category, Profession, Description, Salary: { EstimatedValue: estAvgValue, Description: salaryDescription}}) => <div className="ml-4 my-2" key={Profession}>
+    {jobList.map(({Category, Profession}) => <div className="ml-4 my-2" key={Profession}>
         <h1>Go to <Link href={`/${slugify(Profession)}`}>{Profession}</Link></h1>
 
         <p>
