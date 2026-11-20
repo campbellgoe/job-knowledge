@@ -136,12 +136,12 @@ export default function Home() {
       <footer className="mt-16 text-sm text-amber-800">
         Made by{' '}
         <Link
-          href="https://georgecampbell.co.uk"
+          href="https://massless.ltd"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
         >
-          George Campbell
+          George O. E. Campbell
         </Link>
       </footer>
     </main>
